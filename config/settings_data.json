@@ -1,0 +1,80 @@
+{
+  "current": {
+    "colors_accent_1": "#80411e",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time ☕",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Coffee_Ranch_90c5cb8e-f209-407f-ab16-105f8f3ab068.png",
+          "logo_width": 190,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1d4a3ad8-dd8f-42b9-b237-8ea2e839f2d0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "08472116-573c-4259-80e5-3d20b7f614e7": {
+            "type": "text",
+            "settings": {
+              "heading": "Coffee Ranch",
+              "subtext": "<p>📍  70 Heritage Dr. Orchard Park, NY <\/p><p>☎️ 309-774-5085<\/p><p>📧 hello@coffeeranch.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1d4a3ad8-dd8f-42b9-b237-8ea2e839f2d0",
+          "footer-0",
+          "08472116-573c-4259-80e5-3d20b7f614e7"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "For Coffee Lovers",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
