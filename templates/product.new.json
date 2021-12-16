@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "955fa758-34ad-498d-b3b1-91ed0250c9c1": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "tax included"
+          }
+        },
+        "59bfd0c3-2c27-4010-b032-5a8ea0bde83e": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "ships within 2 weeks"
+          }
+        }
+      },
+      "block_order": [
+        "955fa758-34ad-498d-b3b1-91ed0250c9c1",
+        "59bfd0c3-2c27-4010-b032-5a8ea0bde83e"
+      ],
+      "settings": {
+        "show_reviews": true
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "16396120410ecf65e2": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639612040c0890b17-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test"
+          }
+        },
+        "1639612040c0890b17-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Test text<\/p>"
+          }
+        },
+        "1639612040c0890b17-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Test button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639612040c0890b17-0",
+        "1639612040c0890b17-1",
+        "1639612040c0890b17-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "16396120410ecf65e2"
+  ]
+}
