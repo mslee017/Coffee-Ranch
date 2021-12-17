@@ -140,6 +140,7 @@
                   {% render 'icon-plus' %}
                 </button>
               </quantity-input>
+
             </div>
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
@@ -176,6 +177,7 @@
                   <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status" aria-hidden="true">
                     {{ 'general.share.success_message' | t }}
                   </span>
+
                 </div>
               </details>
             </share-button>
