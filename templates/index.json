@@ -145,6 +145,14 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "1640201173e2c3fd95": {
+      "type": "test-section",
+      "settings": {
+        "testimonial_text": "Hello There!",
+        "testimonial_image": "shopify:\/\/shop_images\/about_3.jpg",
+        "testimonial_name": "Savannah"
+      }
     }
   },
   "order": [
@@ -153,6 +161,7 @@
     "16395067838deb1e9f",
     "image_text",
     "163951947135556a12",
-    "1639519474e142c968"
+    "1639519474e142c968",
+    "1640201173e2c3fd95"
   ]
 }

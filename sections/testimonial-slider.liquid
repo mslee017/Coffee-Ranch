@@ -1,0 +1,52 @@
+<div class="carousel-main-container">
+{% for block in section.blocks %}
+  <div class="carousel-container">
+    {% render 'icon-quotes' %}
+    <h4 class="carousel-text">
+      {{ block.settings.text }}
+    </h4>
+    <img class="carousel-image" src="{{ block.settings.image | img_url: '300x' }}" alt="" />
+    <h4 class="carousel-name">{{ block.settings.name }}</h4>
+  </div>
+{% endfor %}
+
+
+
+</div>
+
+
+
+
+{% comment %} In the schema, the first name is what will show after the section is ADDED. In the presets section, this is what the section will show up as in the "add section" option {% endcomment %}
+{% schema %}
+  {
+    "name": "Testimonial Carousel",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "testimonial",
+        "name": "testimonial",
+        "settings": [
+          {
+            "id": "text",
+            "label": "Text",
+            "type": "richtext"
+          },
+          {
+            "id": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "id": "image",
+            "label": "Image",
+            "type": "image_picker"
+          }
+        ]
+      }
+    ],
+    "presets": [{
+        "name": "Testimonial Carousel"
+      }]
+}
+{% endschema %}

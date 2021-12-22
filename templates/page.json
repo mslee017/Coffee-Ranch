@@ -3,9 +3,63 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "1640213381ac0152df": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "27cffeac-d1da-40df-9c91-6588cd389f23": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>",
+            "name": "Savannah",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        },
+        "d5930723-4f4e-4a18-9c9c-7f0b00f3064f": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa<\/p>",
+            "name": "Jeff",
+            "image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        },
+        "96478f7e-f0c4-47c0-8b86-29e27229421f": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<\/p>",
+            "name": "David",
+            "image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "7c36450b-afc4-4ec3-9e1d-26adce2fcc71": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga<\/p>",
+            "name": "Wyatt",
+            "image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        },
+        "4aaceaa6-82e7-4e08-86d2-255e246cbd28": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio<\/p>",
+            "name": "Jennifer",
+            "image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "27cffeac-d1da-40df-9c91-6588cd389f23",
+        "d5930723-4f4e-4a18-9c9c-7f0b00f3064f",
+        "96478f7e-f0c4-47c0-8b86-29e27229421f",
+        "7c36450b-afc4-4ec3-9e1d-26adce2fcc71",
+        "4aaceaa6-82e7-4e08-86d2-255e246cbd28"
+      ],
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "1640213381ac0152df"
   ]
 }
